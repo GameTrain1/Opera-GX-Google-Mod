@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Google Textured",
+    "description": "Google.com Recolored to the browser theme",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "author": "Game Train",
+    "developer":
+    {
+        "name": "Game Train"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*.google.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/google.css"
+                    ]
+                }
+            ]
+        }
+    }
+}
