@@ -22,7 +22,8 @@
                 {
                     "matches":
                     [
-                        "https://*.google.com/*"
+                        "https://*.google.com/",
+                        "https://*.google.com/search*"
                     ],
                     "css":
                     [
